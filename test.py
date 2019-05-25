@@ -17,12 +17,12 @@ else:
 
 config = {
     'is_bottleneck': False,
-    'residual_block_list': [1, 1, 1, 1],
-    'init_conv_filters': 16,
-    'init_conv_kernel_size': 3,
-    'init_conv_strides': 1,
+    'residual_block_list': [3, 4, 6, 3],
+    'init_conv_filters': 64,
+    'init_conv_kernel_size': 7,
+    'init_conv_strides': 2,
     'init_pooling_pool_size': 3,
-    'init_pooling_strides': 1,
+    'init_pooling_strides': 2,
     'alpha': 0.5
 }
 
